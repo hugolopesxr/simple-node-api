@@ -14,22 +14,24 @@ Navegue até o diretório raiz da aplicação no terminal.
 
 Execute o seguinte comando para instalar as dependências necessárias:
 
-bash
-Copy code
 npm install
+
 Execução
 Após a conclusão da instalação, você pode iniciar o servidor da API usando o seguinte comando:
 
-bash
-Copy code
 npm start
+
 A API estará disponível em http://localhost:3000 (ou em outra porta definida).
 
 Endpoints
 A API possui os seguintes endpoints:
 
 GET '/projects: Retorna uma lista de projecto.
+
 GET '/projects/:id: Retorna detalhes de um projecto específico.
+
 POST '/projects: Cria um novo projecto.
+
 PUT '/projects/:id: Atualiza um projecto existente.
+
 DELETE '/projects/:id: Exclui um projecto.
